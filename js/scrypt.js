@@ -13,3 +13,17 @@ Infine scrivi sulla pagina nomecognomecolorepreferito23
 4. Salvare anno corrente
 5. Pubblicare nome, cognome, colore prerito e anno corrente
 */
+
+
+const name = prompt('Inserisci nome');
+
+const surname = prompt('Inserisci cognome');
+
+const color = prompt('Inserisci colore preferito');
+
+console.log(name, surname, color);
+
+const year = 23;
+
+document.getElementById('dati').innerHTML = name + surname + color + year;
+console.log(datiUtente);
