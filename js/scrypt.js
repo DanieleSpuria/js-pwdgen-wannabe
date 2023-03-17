@@ -26,4 +26,3 @@ console.log(name, surname, color);
 const year = 23;
 
 document.getElementById('dati').innerHTML = name + surname + color + year;
-console.log(datiUtente);
